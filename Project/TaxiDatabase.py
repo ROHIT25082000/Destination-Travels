@@ -29,6 +29,7 @@ finally:
 conn.close()
 try:
     import schema
+    time.sleep(5)
 except:
     print("Schema already utilized ...",sys.exc_info()[0])
 finally:
